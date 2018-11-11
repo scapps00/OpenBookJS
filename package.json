@@ -1,0 +1,31 @@
+{
+  "name": "openbookjs",
+  "version": "1.0.0",
+  "description": "open source npm package for managing book collections",
+  "main": "openbook.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scapps00/OpenBookJS.git"
+  },
+  "keywords": [
+    "book",
+    "books",
+    "book",
+    "management",
+    "book",
+    "collection",
+    "library"
+  ],
+  "author": "Samantha Capps",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scapps00/OpenBookJS/issues"
+  },
+  "homepage": "https://github.com/scapps00/OpenBookJS#readme",
+  "dependencies": {
+    "mysql": "^2.16.0"
+  }
+}

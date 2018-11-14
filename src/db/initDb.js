@@ -1,19 +1,15 @@
 const mysql = require("mysql");
 
 module.exports = function(host, user, password, database, callback) {
-    
+
     var OpenBookJS = this;
 
     var selectDb = function(error, results, fields) {
         if (error) {
-            console.log(error);
+            callback(error);
         } else {
             OpenBookJS.connection.query("USE ??", [database], function(error, results, fields) {
-                if (error) {
-                    console.log(error);
-                } else {
-                    callback();
-                }
+                    callback(error);
             });
         }
     };
